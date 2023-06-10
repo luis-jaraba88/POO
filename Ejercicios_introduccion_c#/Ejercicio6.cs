@@ -7,23 +7,18 @@ using System.Threading.Tasks;
 
 namespace Ejercicios_introduccion_c_
 {
-    public class Ejercicio5
+    public class Ejercicio6
     {
-        //Ejercicio5
+        //Ejercicio6
         public void Ejecutar()
         {
-            int numero = 100;
-
-            for (int i = 1; i <= numero; i++)
+            int recorrer = 1;
+            while (recorrer <= 100)
             {
-                Console.WriteLine(i);
-
+                Console.WriteLine(recorrer);
+                recorrer++;
             }
-
         }
-
     }
 }
-
-    
 
